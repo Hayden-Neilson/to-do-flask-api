@@ -4,8 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-
-[packages]
 flask = "*"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
@@ -15,6 +13,9 @@ gunicorn = "*"
 flask-heroku = "*"
 environs = "*"
 psycopg2 = "*"
+
+[packages]
+
 
 [requires]
 python_version = "3.8"
